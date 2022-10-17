@@ -1,0 +1,149 @@
+.header {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  /* padding: 10px 30px; */
+}
+
+#header__btn {
+  padding: 25px;
+  justify-self: right;
+  margin: 10px;
+}
+
+.contentBlock-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contentBlock-1__main {
+  text-align: left;
+  padding: 1% 25%;
+}
+
+.contentBlock-1 p {
+  padding-bottom: 20px;
+}
+
+.logos {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  padding: 180px 300px 0 300px;
+}
+
+.logos img {
+  width: 200px;
+  height: 170px;
+  padding: 0 50px 0 50px;
+
+}
+
+.contentBlock-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 220px 300px 100px 300px;
+
+}
+
+.contentBlock-2 img {
+  width: 670px;
+  height: 400px;
+}
+
+.contentBlock-2__main {
+  padding: 70px;
+  padding-bottom: 35%;
+}
+
+.contentBlock-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 100px 200px 200px 200px;
+}
+
+.contentBlock-3__header {
+  padding-bottom: 20px;
+}
+
+.contentBlock-3__graphics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contentBlock-4 {
+  padding: 40px 300px;
+}
+
+.contentBlock-4__grid {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
+.contentBlock-4__grid p {
+  padding: 15px 10px;
+}
+
+.more-info {
+  padding-top: 25px;
+}
+
+.contentBlock-5 {
+  padding: 150px 300px;
+}
+
+.contentBlock-6 {
+  padding: 0 300px;
+}
+
+.contentBlock-6__header {
+  padding-bottom: 90px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding-bottom: 40px;
+}
+
+.card {
+  width: 350px;
+  padding: 30px 20px;
+}
+
+.card img {
+  width: 80%;
+  height: 180px;
+  padding: 0 10% 30px 10%;
+}
+
+.contentBlock-7 {
+  padding: 80px 300px;
+}
+
+.contentBlock-7 p {
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+}
+
+footer {
+  padding: 40px 300px;
+}
+
+.footer__main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 80px;
+}
+
+.footer__main li {
+  padding: 15px 0;
+}
+
+.footer-end {
+  padding-top: 30px;
+  text-align: center;
+}

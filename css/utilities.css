@@ -1,0 +1,88 @@
+/* Buttons */
+.btn-light {
+  text-align: center;
+  color: #141938;
+  background: #fff;
+  border: 1px solid #141938;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 20px 20px;
+  transition: all 0.9s ease-out;
+}
+
+.btn-light a {
+  text-decoration: none;
+  color: #141938;
+}
+
+.btn-dark {
+  text-align: center;
+  color: #fff;
+  background: #141938;
+  border: 1px solid #141938;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 20px 20px;
+  transition: all 0.9s ease-out;
+}
+
+.contentBlock-3__btn {
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 20px 20px;
+  transition: all 0.9s ease-out;
+}
+
+#header__btn {
+  font-size: 0.75rem;
+  padding: 15px;
+}
+
+/* Button Hover */
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #141938;
+  transition: 0.9s;
+}
+
+.btn-dark:hover {
+  color: #141938;
+  background: #fff;
+  transition: 0.9s;
+}
+
+.contentBlock-3__btn:hover {
+  background: #fff;
+  color: #141938;
+  transition: 0.9s;
+}
+
+/* Button hover Experience Platform Section */
+
+#btn-dark-ep:hover {
+  background: #42465f;
+  color: #fff;
+}
+
+#btn-light-ep:hover {
+  background: #42465f;
+  color: #fff;
+}
+
+/* Button size for smartphone screens */
+
+@media (max-width: 500px) {
+  .btn-light {
+    padding: 5px 5px;
+    font-size: 0.7rem;
+  }
+
+  .btn-dark {
+    padding: 5px 5px;
+    font-size: 0.7rem;
+  }
+}
